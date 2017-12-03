@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
+@import url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/104288/animate.css);
+
+body {margin:0 auto; text-align:center;padding: 40px;background:#f1f1f1 ;background-image: linear-gradient(135deg, rgba(0, 0, 0,0.9) 0%,rgba(0, 0, 0, 0.8) 100%), url('http://www.androidguys.com/wp-content/uploads/2016/05/tumblr_static_summer_sunset_created_by_-_marilou.png');
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-attachment: fixed;
+ background-size: cover;}
+h1,p{font-family:'Trebuchet MS';text-align:left;font-weight:300;margin:0;}
+h1{font-size:30px;color:#444;}
+p{color:#ffffff ;font-size:14px;}
+#bold{font-weight: 900; font-size: 45; color: #FFFFFF ;}
+#bold1{margin: 0;font-weight: 900; font-size: 45}
+.big_stat {font-size:15px;font-family:'Trebuchet MS';font-weight:700;margin:5px;padding:3px;background:#fff;border-radius:50%;width:20px;height:20px;overflow:hidden;}
+.user {max-width:400px;margin: 0 auto;text-align:center;padding:30px;border-radius:5px;}
+
+.bg{ background: url('http://www.androidguys.com/wp-content/uploads/2016/05/tumblr_static_summer_sunset_created_by_-_marilou.png') top no-repeat;background-size:cover;opacity:.7;}
+.user__image{background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/104288/ladd-web-2.jpg) center no-repeat;border-radius:50%;width:100px;height:100px;border:2px solid #555;float:left;margin:0 30px 0 0;}
+.user__image:hover{border:2px solid #fff;}
+.user__details{padding: 15px;}
+.user__name{background:#f4f4f4 ;margin-left:30px;border-radius:3px;transition:all .2s;letter-spacing:3px;}
+.user__title{margin:10px 0 0 5px;color:#ccc;letter-spacing:3px;}
+
+
+.user_vert {max-width:550px;margin: 5% auto;text-align:center;padding:30px;}
+
+.user__image2{background:url(http://www.lolwot.com/wp-content/uploads/2015/05/20-most-popular-animated-characters-of-all-time.jpg) top no-repeat;border-radius:50%;width:200px;height:200px;margin:0 30px 0 0;margin:0 30px;text-align:center;float:left;box-shadow: 0 0 0 8px rgba(255,255,255,0.1);
+ transition: all 0.2s ease-in-out;}
+
+
+
+.user__name2{text-align:left;letter-spacing:2px;color:#444;font-weight:1000;font-size: 50px;
+ -webkit-animation: fadein 2s; /* Safari 4+ */
+ -moz-animation:    fadein 2s; /* Fx 5+ */
+ -o-animation:      fadein 2s; /* Opera 12+ */
+ animation:         fadein 2s;
+ animation-timing-function: ease-in-out;}
+
+.user__name2:hover{}
+
+.user__title2{text-align:center;color:#777; font-size: 30px;margin: 0;}
+
+
+@-webkit-keyframes fadein {
+ 0% { opacity:0;}
+ 100% { opacity: 1;}
+}
